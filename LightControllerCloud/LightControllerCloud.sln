@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SunriseSunsetService", "SunriseSunsetService.ccproj", "{68C3C6B4-4D63-4003-8978-F78E03A5F0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunriseSunsetWorkerRole", "SunriseSunsetWorkerRole\SunriseSunsetWorkerRole.csproj", "{77358A91-19D4-49EC-8027-FEFE52B09155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7479060C-0B8E-4F96-87FF-59EC9ECF50AB}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightNotificationClient", "LightNotificationClient\LightNotificationClient.csproj", "{9F711154-A19E-483A-985D-20EA1000613D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightControllerWeb", "LightControllerWeb\LightControllerWeb.csproj", "{6FDC52C8-06B2-4531-AA73-E8565FD615D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunriseSunsetLib", "SunriseSunsetLib\SunriseSunsetLib.csproj", "{C898B4C7-9A90-49C8-B3CB-725F24C9C8B4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://codefabricator.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LightNotificationClient\\LightNotificationClient.csproj
+		SccProjectName1 = LightNotificationClient
+		SccLocalPath1 = LightNotificationClient
+		SccProjectUniqueName2 = SunriseSunsetService.ccproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = SunriseSunsetWorkerRole\\SunriseSunsetWorkerRole.csproj
+		SccProjectName3 = SunriseSunsetWorkerRole
+		SccLocalPath3 = SunriseSunsetWorkerRole
+		SccProjectUniqueName4 = LightControllerWeb\\LightControllerWeb.csproj
+		SccProjectName4 = LightControllerWeb
+		SccLocalPath4 = LightControllerWeb
+		SccProjectUniqueName5 = SunriseSunsetLib\\SunriseSunsetLib.csproj
+		SccProjectName5 = SunriseSunsetLib
+		SccLocalPath5 = SunriseSunsetLib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C3C6B4-4D63-4003-8978-F78E03A5F0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C3C6B4-4D63-4003-8978-F78E03A5F0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C3C6B4-4D63-4003-8978-F78E03A5F0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C3C6B4-4D63-4003-8978-F78E03A5F0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77358A91-19D4-49EC-8027-FEFE52B09155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77358A91-19D4-49EC-8027-FEFE52B09155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77358A91-19D4-49EC-8027-FEFE52B09155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77358A91-19D4-49EC-8027-FEFE52B09155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F711154-A19E-483A-985D-20EA1000613D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F711154-A19E-483A-985D-20EA1000613D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F711154-A19E-483A-985D-20EA1000613D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F711154-A19E-483A-985D-20EA1000613D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDC52C8-06B2-4531-AA73-E8565FD615D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDC52C8-06B2-4531-AA73-E8565FD615D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDC52C8-06B2-4531-AA73-E8565FD615D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDC52C8-06B2-4531-AA73-E8565FD615D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C898B4C7-9A90-49C8-B3CB-725F24C9C8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C898B4C7-9A90-49C8-B3CB-725F24C9C8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C898B4C7-9A90-49C8-B3CB-725F24C9C8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C898B4C7-9A90-49C8-B3CB-725F24C9C8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

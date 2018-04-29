@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="SunriseSunsetService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="SunriseSunsetWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://controller.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=VqffRFXV2cIa7J4RYaQWI93uSAHdARMDhROPpEPWpDE=" />
+      <Setting name="Microsoft.ServiceBus.TopicName" value="lights"/>
+      <Setting name="Microsoft.ServiceBus.TopicName-Dev" value="lights-dev"/>
+      <Setting name="Latitude" value="35.119763"/>
+      <Setting name="Longitude" value="-81.075701"/>
+      <Setting name="TimeZoneName" value="Eastern Standard Time"/>
+      <Setting name="SunriseTimeOffsetMinutes" value="-10" />
+      <Setting name="SunsetTimeOffsetMinutes" value="10" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

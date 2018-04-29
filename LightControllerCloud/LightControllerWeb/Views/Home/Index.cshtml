@@ -1,0 +1,66 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Light Switch Cloud Controller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Content/jquery.mobile-1.4.5.min.css">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="~/Scripts/lightswitch.js"></script>
+
+    <style>
+        .textPadding {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+<div data-role="page">
+    <div data-role="main" class="ui-content">
+        <table align="center" width="340" border="0">
+            <tr>
+                <td colspan="2">
+                    <label for="front-patio-switch" style="font-size: 14pt">Turn Lights On/Off:</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 200px">
+                    <div style="zoom: 200%">
+                        <input type="checkbox" data-role="flipswitch" name="front-patio-switch" id="front-patio-switch" />
+                    </div>
+                </td>
+                <td>Front Patio</td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="zoom: 200%">
+                        <input type="checkbox" data-role="flipswitch" name="rear-patio-switch" id="rear-patio-switch" />
+                    </div>
+                </td>
+                <td>Rear Patio</td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="zoom: 200%">
+                        <input type="checkbox" data-role="flipswitch" name="garage-switch" id="garage-switch" />
+                    </div>
+                </td>
+                <td>Garage</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="width: 90px; margin-top: 20px">
+                        <label><input type="checkbox" name="dev" id="dev" checked="checked">Dev</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusAmqpPublisher", "AzureServiceBusAmqpPublisher\AzureServiceBusAmqpPublisher.csproj", "{D49B4B91-458F-4FA6-92DA-CB0606507B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusAmqpSubscriber", "AzureServiceBusAmqpSubscriber\AzureServiceBusAmqpSubscriber.csproj", "{B8FC81B1-A1A3-45A0-A8F9-3B75FFF5217F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amqp.Net", "Amqp.Net\Amqp.Net.csproj", "{92153715-1D99-43B1-B291-470CF91A156D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{8AE30FEF-9738-496B-9C28-C6B4A2445137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interop", "Interop", "{C99E522E-B802-480F-AD6F-29F4FA233EE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PeerToPeer", "PeerToPeer", "{C6054CAD-DEF9-4E08-988E-AB89DB72400C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{89C67740-870C-476D-BC9D-B368C1E59A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop.Client", "Amqp.Net\Examples\Interop\Interop.Client\Interop.Client.csproj", "{C272B10E-36BE-4F36-A128-331F715514E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop.Drain", "Amqp.Net\Examples\Interop\Interop.Drain\Interop.Drain.csproj", "{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop.Server", "Amqp.Net\Examples\Interop\Interop.Server\Interop.Server.csproj", "{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interop.Spout", "Amqp.Net\Examples\Interop\Interop.Spout\Interop.Spout.csproj", "{68470436-2F0D-4A76-B1E6-9C8517844C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerToPeer.Client", "Amqp.Net\Examples\PeerToPeer\PeerToPeer.Client\PeerToPeer.Client.csproj", "{8FC90E46-024B-4089-9590-A7E8C2B092BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerToPeer.Server", "Amqp.Net\Examples\PeerToPeer\PeerToPeer.Server\PeerToPeer.Server.csproj", "{24C152B0-3813-43C6-82DD-8BB601642F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.Cbs", "Amqp.Net\Examples\ServiceBus\ServiceBus.Cbs\ServiceBus.Cbs.csproj", "{4681C268-36DB-4838-BD21-9EC9A8363269}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://codefabricator.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Amqp.Net\\Amqp.Net.csproj
+		SccProjectName1 = Amqp.Net
+		SccLocalPath1 = Amqp.Net
+		SccProjectUniqueName2 = Amqp.Net\\Examples\\Interop\\Interop.Client\\Interop.Client.csproj
+		SccProjectTopLevelParentUniqueName2 = AzureServiceBusAmqp.sln
+		SccProjectName2 = Amqp.Net/Examples/Interop/Interop.Client
+		SccLocalPath2 = Amqp.Net\\Examples\\Interop\\Interop.Client
+		SccProjectUniqueName3 = Amqp.Net\\Examples\\Interop\\Interop.Drain\\Interop.Drain.csproj
+		SccProjectTopLevelParentUniqueName3 = AzureServiceBusAmqp.sln
+		SccProjectName3 = Amqp.Net/Examples/Interop/Interop.Drain
+		SccLocalPath3 = Amqp.Net\\Examples\\Interop\\Interop.Drain
+		SccProjectUniqueName4 = Amqp.Net\\Examples\\Interop\\Interop.Server\\Interop.Server.csproj
+		SccProjectTopLevelParentUniqueName4 = AzureServiceBusAmqp.sln
+		SccProjectName4 = Amqp.Net/Examples/Interop/Interop.Server
+		SccLocalPath4 = Amqp.Net\\Examples\\Interop\\Interop.Server
+		SccProjectUniqueName5 = Amqp.Net\\Examples\\Interop\\Interop.Spout\\Interop.Spout.csproj
+		SccProjectTopLevelParentUniqueName5 = AzureServiceBusAmqp.sln
+		SccProjectName5 = Amqp.Net/Examples/Interop/Interop.Spout
+		SccLocalPath5 = Amqp.Net\\Examples\\Interop\\Interop.Spout
+		SccProjectUniqueName6 = Amqp.Net\\Examples\\PeerToPeer\\PeerToPeer.Client\\PeerToPeer.Client.csproj
+		SccProjectTopLevelParentUniqueName6 = AzureServiceBusAmqp.sln
+		SccProjectName6 = Amqp.Net/Examples/PeerToPeer/PeerToPeer.Client
+		SccLocalPath6 = Amqp.Net\\Examples\\PeerToPeer\\PeerToPeer.Client
+		SccProjectUniqueName7 = Amqp.Net\\Examples\\PeerToPeer\\PeerToPeer.Server\\PeerToPeer.Server.csproj
+		SccProjectTopLevelParentUniqueName7 = AzureServiceBusAmqp.sln
+		SccProjectName7 = Amqp.Net/Examples/PeerToPeer/PeerToPeer.Server
+		SccLocalPath7 = Amqp.Net\\Examples\\PeerToPeer\\PeerToPeer.Server
+		SccProjectUniqueName8 = Amqp.Net\\Examples\\ServiceBus\\ServiceBus.Cbs\\ServiceBus.Cbs.csproj
+		SccProjectTopLevelParentUniqueName8 = AzureServiceBusAmqp.sln
+		SccProjectName8 = Amqp.Net/Examples/ServiceBus/ServiceBus.Cbs
+		SccLocalPath8 = Amqp.Net\\Examples\\ServiceBus\\ServiceBus.Cbs
+		SccProjectUniqueName9 = AzureServiceBusAmqpPublisher\\AzureServiceBusAmqpPublisher.csproj
+		SccProjectName9 = AzureServiceBusAmqpPublisher
+		SccLocalPath9 = AzureServiceBusAmqpPublisher
+		SccProjectUniqueName10 = AzureServiceBusAmqpSubscriber\\AzureServiceBusAmqpSubscriber.csproj
+		SccProjectName10 = AzureServiceBusAmqpSubscriber
+		SccLocalPath10 = AzureServiceBusAmqpSubscriber
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D49B4B91-458F-4FA6-92DA-CB0606507B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49B4B91-458F-4FA6-92DA-CB0606507B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49B4B91-458F-4FA6-92DA-CB0606507B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49B4B91-458F-4FA6-92DA-CB0606507B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FC81B1-A1A3-45A0-A8F9-3B75FFF5217F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FC81B1-A1A3-45A0-A8F9-3B75FFF5217F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FC81B1-A1A3-45A0-A8F9-3B75FFF5217F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FC81B1-A1A3-45A0-A8F9-3B75FFF5217F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92153715-1D99-43B1-B291-470CF91A156D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92153715-1D99-43B1-B291-470CF91A156D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92153715-1D99-43B1-B291-470CF91A156D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92153715-1D99-43B1-B291-470CF91A156D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C272B10E-36BE-4F36-A128-331F715514E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C272B10E-36BE-4F36-A128-331F715514E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C272B10E-36BE-4F36-A128-331F715514E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C272B10E-36BE-4F36-A128-331F715514E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68470436-2F0D-4A76-B1E6-9C8517844C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68470436-2F0D-4A76-B1E6-9C8517844C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68470436-2F0D-4A76-B1E6-9C8517844C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68470436-2F0D-4A76-B1E6-9C8517844C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC90E46-024B-4089-9590-A7E8C2B092BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC90E46-024B-4089-9590-A7E8C2B092BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC90E46-024B-4089-9590-A7E8C2B092BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC90E46-024B-4089-9590-A7E8C2B092BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C152B0-3813-43C6-82DD-8BB601642F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C152B0-3813-43C6-82DD-8BB601642F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C152B0-3813-43C6-82DD-8BB601642F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C152B0-3813-43C6-82DD-8BB601642F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4681C268-36DB-4838-BD21-9EC9A8363269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4681C268-36DB-4838-BD21-9EC9A8363269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4681C268-36DB-4838-BD21-9EC9A8363269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4681C268-36DB-4838-BD21-9EC9A8363269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C99E522E-B802-480F-AD6F-29F4FA233EE5} = {8AE30FEF-9738-496B-9C28-C6B4A2445137}
+		{C6054CAD-DEF9-4E08-988E-AB89DB72400C} = {8AE30FEF-9738-496B-9C28-C6B4A2445137}
+		{89C67740-870C-476D-BC9D-B368C1E59A37} = {8AE30FEF-9738-496B-9C28-C6B4A2445137}
+		{C272B10E-36BE-4F36-A128-331F715514E6} = {C99E522E-B802-480F-AD6F-29F4FA233EE5}
+		{D6201667-DFEC-4BEF-8F4F-BE5EE5F07FE7} = {C99E522E-B802-480F-AD6F-29F4FA233EE5}
+		{09975981-F2D3-43AE-B70D-F4DEE7B0B0D2} = {C99E522E-B802-480F-AD6F-29F4FA233EE5}
+		{68470436-2F0D-4A76-B1E6-9C8517844C3E} = {C99E522E-B802-480F-AD6F-29F4FA233EE5}
+		{8FC90E46-024B-4089-9590-A7E8C2B092BE} = {C6054CAD-DEF9-4E08-988E-AB89DB72400C}
+		{24C152B0-3813-43C6-82DD-8BB601642F6C} = {C6054CAD-DEF9-4E08-988E-AB89DB72400C}
+		{4681C268-36DB-4838-BD21-9EC9A8363269} = {89C67740-870C-476D-BC9D-B368C1E59A37}
+	EndGlobalSection
+EndGlobal

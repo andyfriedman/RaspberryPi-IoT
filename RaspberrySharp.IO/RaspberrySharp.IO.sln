@@ -1,0 +1,313 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO.GeneralPurpose", "Raspberry.IO.GeneralPurpose\Raspberry.IO.GeneralPurpose.csproj", "{281C71ED-C36D-408E-8BAA-75C381DC17E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93E87796-2109-444A-8852-7174C93E6F45}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{15ECD485-B3FD-4B6F-8491-7489DFFC89BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.MCP3008", "Tests\Test.Gpio.MCP3008\Test.Gpio.MCP3008.csproj", "{B28253A7-BB93-40F7-B41C-B4AE369174ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.MCP4822", "Tests\Test.Gpio.MCP4822\Test.Gpio.MCP4822.csproj", "{54075457-7C1D-4C8F-BE7D-CFCA34F11228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.HD44780", "Tests\Test.Gpio.HD44780\Test.Gpio.HD44780.csproj", "{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.HCSR04", "Tests\Test.Gpio.HCSR04\Test.Gpio.HCSR04.csproj", "{0A18AC47-CA6D-442C-A31C-6864F7DDD97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.Chaser", "Tests\Test.Gpio.Chaser\Test.Gpio.Chaser.csproj", "{5D9D1834-4C4B-4E03-B635-5F205205B6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.MCP23017", "Tests\Test.Gpio.MCP23017\Test.Gpio.MCP23017.csproj", "{266EDDBC-F741-48F8-83B7-2CD37BACE62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.WatchPin", "Tests\Test.Gpio.WatchPin\Test.Gpio.WatchPin.csproj", "{60B59A9C-69F6-4CEA-8385-C8542AE2BB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.Pca9685", "Tests\Test.Gpio.Pca9685\Test.Gpio.Pca9685.csproj", "{57A001A7-FCF7-45EC-8E25-A390EF044E94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Spi.TLC59711", "Tests\Test.Spi.TLC59711\Test.Spi.TLC59711.csproj", "{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Components.PiFaceDigital", "Tests\Test.Components.PiFaceDigital\Test.Components.PiFaceDigital.csproj", "{475CEB21-BA5F-4338-80E2-C6B29766A04A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Gpio.DHT11", "Tests\Test.Gpio.DHT11\Test.Gpio.DHT11.csproj", "{63356B6E-47A0-44E8-8B98-456E8579DCD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Spi.MCP3208", "Tests\Test.Spi.MCP3208\Test.Spi.MCP3208.csproj", "{D4B87926-598E-4EAB-BA75-CD9FB253D450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Components.Ssd1306", "Tests\Test.Components.Ssd1306\Test.Components.Ssd1306.csproj", "{CAD5F2DD-AB2D-4145-9850-8101343E2AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{C39D0CC3-C0F2-4B58-8779-2CCB5B52534C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Raspberry.IO.SerialPeripheralInterface", "UnitTests\Tests.Raspberry.IO.SerialPeripheralInterface\Tests.Raspberry.IO.SerialPeripheralInterface.csproj", "{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Raspberry.IO", "UnitTests\Tests.Raspberry.IO\Tests.Raspberry.IO.csproj", "{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Raspberry.IO.Components", "UnitTests\Tests.Raspberry.IO.Components\Tests.Raspberry.IO.Components.csproj", "{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Raspberry.IO.Interop", "UnitTests\Tests.Raspberry.IO.Interop\Tests.Raspberry.IO.Interop.csproj", "{CAF876A0-0FCB-44F7-96F1-53704CB6015F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO.SerialPeripheralInterface", "Raspberry.IO.SerialPeripheralInterface\Raspberry.IO.SerialPeripheralInterface.csproj", "{326342E5-0411-40E8-9F2D-563D6B192568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO.InterIntegratedCircuit", "Raspberry.IO.InterIntegratedCircuit\Raspberry.IO.InterIntegratedCircuit.csproj", "{63B8403E-BC56-43F9-A045-F61ECC3871F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO.Components", "Raspberry.IO.Components\Raspberry.IO.Components.csproj", "{8388CFCA-E3DB-43F7-B049-2CB195211CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{33C6FE3E-2730-4A56-9C64-0A58E00A5CEE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO", "Raspberry.IO\Raspberry.IO.csproj", "{ACE64F17-87E5-43E7-97A0-BDDE19059C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.IO.Interop", "Raspberry.IO.Interop\Raspberry.IO.Interop.csproj", "{689CB6C4-3D23-45DA-8E00-87C28AEA32D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raspberry.System", "..\RaspberrySharp.System\Raspberry.System\Raspberry.System.csproj", "{2C0C9AAF-4EDD-4C79-961B-E7BC4FC4EB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Board", "..\RaspberrySharp.System\Test.Board\Test.Board.csproj", "{51780F8A-E5F5-4DC8-84B4-B282800A3396}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 26
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://codefabricator.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Raspberry.IO.Components\\Raspberry.IO.Components.csproj
+		SccProjectName1 = Raspberry.IO.Components
+		SccLocalPath1 = Raspberry.IO.Components
+		SccProjectUniqueName2 = Raspberry.IO.GeneralPurpose\\Raspberry.IO.GeneralPurpose.csproj
+		SccProjectName2 = Raspberry.IO.GeneralPurpose
+		SccLocalPath2 = Raspberry.IO.GeneralPurpose
+		SccProjectUniqueName3 = Raspberry.IO.InterIntegratedCircuit\\Raspberry.IO.InterIntegratedCircuit.csproj
+		SccProjectName3 = Raspberry.IO.InterIntegratedCircuit
+		SccLocalPath3 = Raspberry.IO.InterIntegratedCircuit
+		SccProjectUniqueName4 = Raspberry.IO.Interop\\Raspberry.IO.Interop.csproj
+		SccProjectName4 = Raspberry.IO.Interop
+		SccLocalPath4 = Raspberry.IO.Interop
+		SccProjectUniqueName5 = Raspberry.IO.SerialPeripheralInterface\\Raspberry.IO.SerialPeripheralInterface.csproj
+		SccProjectName5 = Raspberry.IO.SerialPeripheralInterface
+		SccLocalPath5 = Raspberry.IO.SerialPeripheralInterface
+		SccProjectUniqueName6 = Raspberry.IO\\Raspberry.IO.csproj
+		SccProjectName6 = Raspberry.IO
+		SccLocalPath6 = Raspberry.IO
+		SccProjectUniqueName7 = Tests\\Test.Components.PiFaceDigital\\Test.Components.PiFaceDigital.csproj
+		SccProjectTopLevelParentUniqueName7 = RaspberrySharp.IO.sln
+		SccProjectName7 = Tests/Test.Components.PiFaceDigital
+		SccLocalPath7 = Tests\\Test.Components.PiFaceDigital
+		SccProjectUniqueName8 = Tests\\Test.Components.Ssd1306\\Test.Components.Ssd1306.csproj
+		SccProjectTopLevelParentUniqueName8 = RaspberrySharp.IO.sln
+		SccProjectName8 = Tests/Test.Components.Ssd1306
+		SccLocalPath8 = Tests\\Test.Components.Ssd1306
+		SccProjectUniqueName9 = Tests\\Test.Gpio.Chaser\\Test.Gpio.Chaser.csproj
+		SccProjectTopLevelParentUniqueName9 = RaspberrySharp.IO.sln
+		SccProjectName9 = Tests/Test.Gpio.Chaser
+		SccLocalPath9 = Tests\\Test.Gpio.Chaser
+		SccProjectUniqueName10 = Tests\\Test.Gpio.DHT11\\Test.Gpio.DHT11.csproj
+		SccProjectTopLevelParentUniqueName10 = RaspberrySharp.IO.sln
+		SccProjectName10 = Tests/Test.Gpio.DHT11
+		SccLocalPath10 = Tests\\Test.Gpio.DHT11
+		SccProjectUniqueName11 = Tests\\Test.Gpio.HCSR04\\Test.Gpio.HCSR04.csproj
+		SccProjectTopLevelParentUniqueName11 = RaspberrySharp.IO.sln
+		SccProjectName11 = Tests/Test.Gpio.HCSR04
+		SccLocalPath11 = Tests\\Test.Gpio.HCSR04
+		SccProjectUniqueName12 = Tests\\Test.Gpio.HD44780\\Test.Gpio.HD44780.csproj
+		SccProjectTopLevelParentUniqueName12 = RaspberrySharp.IO.sln
+		SccProjectName12 = Tests/Test.Gpio.HD44780
+		SccLocalPath12 = Tests\\Test.Gpio.HD44780
+		SccProjectUniqueName13 = Tests\\Test.Gpio.MCP23017\\Test.Gpio.MCP23017.csproj
+		SccProjectTopLevelParentUniqueName13 = RaspberrySharp.IO.sln
+		SccProjectName13 = Tests/Test.Gpio.MCP23017
+		SccLocalPath13 = Tests\\Test.Gpio.MCP23017
+		SccProjectUniqueName14 = Tests\\Test.Gpio.MCP3008\\Test.Gpio.MCP3008.csproj
+		SccProjectTopLevelParentUniqueName14 = RaspberrySharp.IO.sln
+		SccProjectName14 = Tests/Test.Gpio.MCP3008
+		SccLocalPath14 = Tests\\Test.Gpio.MCP3008
+		SccProjectUniqueName15 = Tests\\Test.Gpio.MCP4822\\Test.Gpio.MCP4822.csproj
+		SccProjectTopLevelParentUniqueName15 = RaspberrySharp.IO.sln
+		SccProjectName15 = Tests/Test.Gpio.MCP4822
+		SccLocalPath15 = Tests\\Test.Gpio.MCP4822
+		SccProjectUniqueName16 = Tests\\Test.Gpio.Pca9685\\Test.Gpio.Pca9685.csproj
+		SccProjectTopLevelParentUniqueName16 = RaspberrySharp.IO.sln
+		SccProjectName16 = Tests/Test.Gpio.Pca9685
+		SccLocalPath16 = Tests\\Test.Gpio.Pca9685
+		SccProjectUniqueName17 = Tests\\Test.Gpio.WatchPin\\Test.Gpio.WatchPin.csproj
+		SccProjectTopLevelParentUniqueName17 = RaspberrySharp.IO.sln
+		SccProjectName17 = Tests/Test.Gpio.WatchPin
+		SccLocalPath17 = Tests\\Test.Gpio.WatchPin
+		SccProjectUniqueName18 = Tests\\Test.Spi.MCP3208\\Test.Spi.MCP3208.csproj
+		SccProjectTopLevelParentUniqueName18 = RaspberrySharp.IO.sln
+		SccProjectName18 = Tests/Test.Spi.MCP3208
+		SccLocalPath18 = Tests\\Test.Spi.MCP3208
+		SccProjectUniqueName19 = Tests\\Test.Spi.TLC59711\\Test.Spi.TLC59711.csproj
+		SccProjectTopLevelParentUniqueName19 = RaspberrySharp.IO.sln
+		SccProjectName19 = Tests/Test.Spi.TLC59711
+		SccLocalPath19 = Tests\\Test.Spi.TLC59711
+		SccProjectUniqueName20 = UnitTests\\Tests.Raspberry.IO.Components\\Tests.Raspberry.IO.Components.csproj
+		SccProjectTopLevelParentUniqueName20 = RaspberrySharp.IO.sln
+		SccProjectName20 = UnitTests/Tests.Raspberry.IO.Components
+		SccLocalPath20 = UnitTests\\Tests.Raspberry.IO.Components
+		SccProjectUniqueName21 = UnitTests\\Tests.Raspberry.IO.Interop\\Tests.Raspberry.IO.Interop.csproj
+		SccProjectTopLevelParentUniqueName21 = RaspberrySharp.IO.sln
+		SccProjectName21 = UnitTests/Tests.Raspberry.IO.Interop
+		SccLocalPath21 = UnitTests\\Tests.Raspberry.IO.Interop
+		SccProjectUniqueName22 = UnitTests\\Tests.Raspberry.IO.SerialPeripheralInterface\\Tests.Raspberry.IO.SerialPeripheralInterface.csproj
+		SccProjectTopLevelParentUniqueName22 = RaspberrySharp.IO.sln
+		SccProjectName22 = UnitTests/Tests.Raspberry.IO.SerialPeripheralInterface
+		SccLocalPath22 = UnitTests\\Tests.Raspberry.IO.SerialPeripheralInterface
+		SccProjectUniqueName23 = UnitTests\\Tests.Raspberry.IO\\Tests.Raspberry.IO.csproj
+		SccProjectTopLevelParentUniqueName23 = RaspberrySharp.IO.sln
+		SccProjectName23 = UnitTests/Tests.Raspberry.IO
+		SccLocalPath23 = UnitTests\\Tests.Raspberry.IO
+		SccProjectUniqueName24 = ..\\RaspberrySharp.System\\Raspberry.System\\Raspberry.System.csproj
+		SccProjectName24 = ../RaspberrySharp.System/Raspberry.System
+		SccLocalPath24 = ..\\RaspberrySharp.System\\Raspberry.System
+		SccProjectUniqueName25 = ..\\RaspberrySharp.System\\Test.Board\\Test.Board.csproj
+		SccProjectTopLevelParentUniqueName25 = RaspberrySharp.IO.sln
+		SccProjectName25 = ../RaspberrySharp.System/Test.Board
+		SccLocalPath25 = ..\\RaspberrySharp.System\\Test.Board
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281C71ED-C36D-408E-8BAA-75C381DC17E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281C71ED-C36D-408E-8BAA-75C381DC17E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281C71ED-C36D-408E-8BAA-75C381DC17E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281C71ED-C36D-408E-8BAA-75C381DC17E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28253A7-BB93-40F7-B41C-B4AE369174ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28253A7-BB93-40F7-B41C-B4AE369174ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28253A7-BB93-40F7-B41C-B4AE369174ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28253A7-BB93-40F7-B41C-B4AE369174ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54075457-7C1D-4C8F-BE7D-CFCA34F11228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54075457-7C1D-4C8F-BE7D-CFCA34F11228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54075457-7C1D-4C8F-BE7D-CFCA34F11228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54075457-7C1D-4C8F-BE7D-CFCA34F11228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A18AC47-CA6D-442C-A31C-6864F7DDD97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A18AC47-CA6D-442C-A31C-6864F7DDD97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A18AC47-CA6D-442C-A31C-6864F7DDD97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A18AC47-CA6D-442C-A31C-6864F7DDD97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9D1834-4C4B-4E03-B635-5F205205B6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9D1834-4C4B-4E03-B635-5F205205B6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9D1834-4C4B-4E03-B635-5F205205B6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9D1834-4C4B-4E03-B635-5F205205B6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266EDDBC-F741-48F8-83B7-2CD37BACE62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266EDDBC-F741-48F8-83B7-2CD37BACE62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266EDDBC-F741-48F8-83B7-2CD37BACE62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266EDDBC-F741-48F8-83B7-2CD37BACE62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B59A9C-69F6-4CEA-8385-C8542AE2BB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B59A9C-69F6-4CEA-8385-C8542AE2BB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B59A9C-69F6-4CEA-8385-C8542AE2BB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B59A9C-69F6-4CEA-8385-C8542AE2BB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A001A7-FCF7-45EC-8E25-A390EF044E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A001A7-FCF7-45EC-8E25-A390EF044E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A001A7-FCF7-45EC-8E25-A390EF044E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A001A7-FCF7-45EC-8E25-A390EF044E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475CEB21-BA5F-4338-80E2-C6B29766A04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CEB21-BA5F-4338-80E2-C6B29766A04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CEB21-BA5F-4338-80E2-C6B29766A04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CEB21-BA5F-4338-80E2-C6B29766A04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63356B6E-47A0-44E8-8B98-456E8579DCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63356B6E-47A0-44E8-8B98-456E8579DCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63356B6E-47A0-44E8-8B98-456E8579DCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63356B6E-47A0-44E8-8B98-456E8579DCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B87926-598E-4EAB-BA75-CD9FB253D450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B87926-598E-4EAB-BA75-CD9FB253D450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B87926-598E-4EAB-BA75-CD9FB253D450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B87926-598E-4EAB-BA75-CD9FB253D450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD5F2DD-AB2D-4145-9850-8101343E2AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD5F2DD-AB2D-4145-9850-8101343E2AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD5F2DD-AB2D-4145-9850-8101343E2AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD5F2DD-AB2D-4145-9850-8101343E2AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF876A0-0FCB-44F7-96F1-53704CB6015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF876A0-0FCB-44F7-96F1-53704CB6015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF876A0-0FCB-44F7-96F1-53704CB6015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF876A0-0FCB-44F7-96F1-53704CB6015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326342E5-0411-40E8-9F2D-563D6B192568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326342E5-0411-40E8-9F2D-563D6B192568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326342E5-0411-40E8-9F2D-563D6B192568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326342E5-0411-40E8-9F2D-563D6B192568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B8403E-BC56-43F9-A045-F61ECC3871F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B8403E-BC56-43F9-A045-F61ECC3871F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B8403E-BC56-43F9-A045-F61ECC3871F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B8403E-BC56-43F9-A045-F61ECC3871F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8388CFCA-E3DB-43F7-B049-2CB195211CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8388CFCA-E3DB-43F7-B049-2CB195211CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8388CFCA-E3DB-43F7-B049-2CB195211CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8388CFCA-E3DB-43F7-B049-2CB195211CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE64F17-87E5-43E7-97A0-BDDE19059C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE64F17-87E5-43E7-97A0-BDDE19059C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE64F17-87E5-43E7-97A0-BDDE19059C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE64F17-87E5-43E7-97A0-BDDE19059C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689CB6C4-3D23-45DA-8E00-87C28AEA32D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689CB6C4-3D23-45DA-8E00-87C28AEA32D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689CB6C4-3D23-45DA-8E00-87C28AEA32D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689CB6C4-3D23-45DA-8E00-87C28AEA32D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0C9AAF-4EDD-4C79-961B-E7BC4FC4EB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0C9AAF-4EDD-4C79-961B-E7BC4FC4EB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0C9AAF-4EDD-4C79-961B-E7BC4FC4EB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0C9AAF-4EDD-4C79-961B-E7BC4FC4EB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51780F8A-E5F5-4DC8-84B4-B282800A3396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51780F8A-E5F5-4DC8-84B4-B282800A3396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51780F8A-E5F5-4DC8-84B4-B282800A3396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51780F8A-E5F5-4DC8-84B4-B282800A3396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15ECD485-B3FD-4B6F-8491-7489DFFC89BC} = {93E87796-2109-444A-8852-7174C93E6F45}
+		{B28253A7-BB93-40F7-B41C-B4AE369174ED} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{54075457-7C1D-4C8F-BE7D-CFCA34F11228} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{6B5D38D3-7642-4DF9-A9AA-3AF7D00890BC} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{0A18AC47-CA6D-442C-A31C-6864F7DDD97D} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{5D9D1834-4C4B-4E03-B635-5F205205B6F8} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{266EDDBC-F741-48F8-83B7-2CD37BACE62B} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{60B59A9C-69F6-4CEA-8385-C8542AE2BB98} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{57A001A7-FCF7-45EC-8E25-A390EF044E94} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{AF711872-F931-46A8-AAC0-AFF6FFEF5AE3} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{475CEB21-BA5F-4338-80E2-C6B29766A04A} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{63356B6E-47A0-44E8-8B98-456E8579DCD2} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{D4B87926-598E-4EAB-BA75-CD9FB253D450} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{CAD5F2DD-AB2D-4145-9850-8101343E2AF5} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+		{C39D0CC3-C0F2-4B58-8779-2CCB5B52534C} = {93E87796-2109-444A-8852-7174C93E6F45}
+		{17A2A965-36FA-4CDB-B2D6-AC69C9E9857F} = {C39D0CC3-C0F2-4B58-8779-2CCB5B52534C}
+		{0BB6C3CE-422E-49F2-9165-DEC06AFE1B1A} = {C39D0CC3-C0F2-4B58-8779-2CCB5B52534C}
+		{99EB3D1A-F0B7-454E-BB50-9B2F5349BC5B} = {C39D0CC3-C0F2-4B58-8779-2CCB5B52534C}
+		{CAF876A0-0FCB-44F7-96F1-53704CB6015F} = {C39D0CC3-C0F2-4B58-8779-2CCB5B52534C}
+		{51780F8A-E5F5-4DC8-84B4-B282800A3396} = {15ECD485-B3FD-4B6F-8491-7489DFFC89BC}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Raspberry.IO.GeneralPurpose\Raspberry.IO.GeneralPurpose.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabsToSpaces = False
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+	EndGlobalSection
+EndGlobal

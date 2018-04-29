@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="SunriseSunsetService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WorkerRole name="SunriseSunsetWorkerRole" vmsize="Small">
+    <ConfigurationSettings>
+      <Setting name="Microsoft.ServiceBus.ConnectionString" />
+      <Setting name="Microsoft.ServiceBus.TopicName" />
+      <Setting name="Microsoft.ServiceBus.TopicName-Dev" />
+      <Setting name="Latitude" />
+      <Setting name="Longitude" />
+      <Setting name="TimeZoneName" />
+      <Setting name="SunriseTimeOffsetMinutes" />
+      <Setting name="SunsetTimeOffsetMinutes" />
+    </ConfigurationSettings>
+  </WorkerRole>
+</ServiceDefinition>
